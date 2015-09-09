@@ -1,17 +1,11 @@
 @prefix :      <http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD1#> .
-@prefix cc:    <http://creativecommons.org/ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ifc:   <http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD1#> .
-@prefix dce:   <http://purl.org/dc/elements/1.1/> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix express: <http://purl.org/vocab/express/> .
-@prefix vann:  <http://purl.org/vocab/vann/> .
-@prefix list:  <http://www.co-ode.org/ontologies/list.owl#> .
 
 ifc:PanelPosition_IfcWindowPanelProperties
         a            owl:ObjectProperty , owl:FunctionalProperty ;
         rdfs:domain  ifc:IfcWindowPanelProperties ;
-        rdfs:label   "PanelPosition" ;
         rdfs:range   ifc:IfcWindowPanelPositionEnum .
