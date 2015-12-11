@@ -1,4 +1,22 @@
-<rdf:RDF
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+    <!ENTITY expr "http://purl.org/vocab/express#" >
+    <!ENTITY cc "http://creativecommons.org/ns#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dce "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY list "http://www.co-ode.org/ontologies/list.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ifc "http://www.buildingsmart-tech.org/ifcOWL/IFC4#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.buildingsmart-tech.org/ifcOWL/IFC4#"
+     xml:base="http://www.buildingsmart-tech.org/ifcOWL/IFC4"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:list="http://www.co-ode.org/ontologies/list.owl#"
     xmlns:cc="http://creativecommons.org/ns#"
@@ -12498,7 +12516,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.buildingsmart-tech.org/ifcOWL/IFC4">
-    <dce:creator>Nam Vu Hoang  (nam.vuhoang@gmail.com)</dce:creator>
     <vann:preferredNamespaceUri>http://www.buildingsmart-tech.org/ifcOWL/IFC4</vann:preferredNamespaceUri>
     <vann:preferredNamespacePrefix>ifc</vann:preferredNamespacePrefix>
     <dce:creator>Pieter Pauwels (pipauwel.pauwels@ugent.be)</dce:creator>

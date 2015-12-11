@@ -1,4 +1,21 @@
-<rdf:RDF
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+    <!ENTITY expr "http://purl.org/vocab/express#" >
+    <!ENTITY cc "http://creativecommons.org/ns#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dce "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY list "http://www.co-ode.org/ontologies/list.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ifc "http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final#" >
+]>
+
+<rdf:RDF xmlns="http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final#"
+     xml:base="http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:list="http://www.co-ode.org/ontologies/list.owl#"
     xmlns:cc="http://creativecommons.org/ns#"
@@ -30375,7 +30392,6 @@
     <dce:contributor>Maria Poveda Villalon (mpoveda@fi.upm.es)</dce:contributor>
     <rdfs:comment>Ontology automatically generated from the EXPRESS schema 'IFC2X3_Final' using the 'IFC-to-RDF' converter developed by Pieter Pauwels (pipauwel.pauwels@ugent.be), based on the earlier versions from Jyrki Oraskari (jyrki.oraskari@aalto.fi) and Davy Van Deursen (davy.vandeursen@ugent.be)</rdfs:comment>
     <dce:title>IFC2X3_Final</dce:title>
-    <dce:creator>Nam Vu Hoang  (nam.vuhoang@gmail.com)</dce:creator>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
     <owl:imports rdf:resource="http://purl.org/voc/express"/>
   </rdf:Description>

@@ -1,4 +1,22 @@
-<rdf:RDF
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+    <!ENTITY expr "http://purl.org/vocab/express#" >
+    <!ENTITY cc "http://creativecommons.org/ns#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dce "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY list "http://www.co-ode.org/ontologies/list.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ifc "http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD1#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD1#"
+     xml:base="http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD1"
     xmlns:ifc="http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD1#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:list="http://www.co-ode.org/ontologies/list.owl#"
@@ -45041,7 +45059,6 @@
     <dce:contributor>Jakob Beetz (j.beetz@tue.nl)</dce:contributor>
     <dce:identifier>IFC4_ADD1</dce:identifier>
     <owl:imports rdf:resource="http://purl.org/voc/express"/>
-    <dce:creator>Nam Vu Hoang  (nam.vuhoang@gmail.com)</dce:creator>
     <dce:date>2015/10/02</dce:date>
     <dce:contributor>Maria Poveda Villalon (mpoveda@fi.upm.es)</dce:contributor>
     <dce:description>OWL ontology for the IFC conceptual data schema and exchange file format for Building Information Model (BIM) data</dce:description>

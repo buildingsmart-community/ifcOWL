@@ -3067,7 +3067,7 @@ ifc:layerSetDirection_IfcMaterialLayerSetUsage
         rdfs:comment                   "Ontology automatically generated from the EXPRESS schema 'IFC4' using the 'IFC-to-RDF' converter developed by Pieter Pauwels (pipauwel.pauwels@ugent.be), based on the earlier versions from Jyrki Oraskari (jyrki.oraskari@aalto.fi) and Davy Van Deursen (davy.vandeursen@ugent.be)" ;
         cc:license                     <http://creativecommons.org/licenses/by/3.0/> ;
         dce:contributor                "Jakob Beetz (j.beetz@tue.nl)" , "Aleksandra Sojic (aleksandra.sojic@itia.cnr.it)" , "Maria Poveda Villalon (mpoveda@fi.upm.es)" ;
-        dce:creator                    "Nam Vu Hoang  (nam.vuhoang@gmail.com)" , "Pieter Pauwels (pipauwel.pauwels@ugent.be)" , "Walter Terkaj  (walter.terkaj@itia.cnr.it)" ;
+        dce:creator                    "Pieter Pauwels (pipauwel.pauwels@ugent.be)" , "Walter Terkaj  (walter.terkaj@itia.cnr.it)" ;
         dce:date                       "2015/10/02" ;
         dce:description                "OWL ontology for the IFC conceptual data schema and exchange file format for Building Information Model (BIM) data" ;
         dce:identifier                 "IFC4" ;
