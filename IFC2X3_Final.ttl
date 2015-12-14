@@ -1,13 +1,13 @@
-@prefix :      <http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final#> .
+@prefix :      <https://w3id.org/ifc/IFC2X3_Final#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dce:   <http://purl.org/dc/elements/1.1/> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix vann:  <http://purl.org/vocab/vann/> .
-@prefix list:  <http://www.co-ode.org/ontologies/list.owl#> .
-@prefix expr:  <http://purl.org/voc/express#> .
-@prefix ifc:   <http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final#> .
+@prefix list:  <https://w3id.org/list#> .
+@prefix expr:  <https://w3id.org/express#> .
+@prefix ifc:   <https://w3id.org/ifc/IFC2X3_Final#> .
 @prefix cc:    <http://creativecommons.org/ns#> .
 
 ifc:timeSeries_IfcTimeSeriesSchedule
@@ -11169,7 +11169,7 @@ ifc:RING  a         ifc:IfcReinforcingBarRoleEnum , owl:NamedIndividual ;
 ifc:RELIEFDAMPER  a  ifc:IfcDamperTypeEnum , owl:NamedIndividual ;
         rdfs:label  "RELIEFDAMPER" .
 
-<http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final>
+<https://w3id.org/ifc/IFC2X3_Final>
         a                              owl:Ontology ;
         rdfs:comment                   "Ontology automatically generated from the EXPRESS schema 'IFC2X3_Final' using the 'IFC-to-RDF' converter developed by Pieter Pauwels (pipauwel.pauwels@ugent.be), based on the earlier versions from Jyrki Oraskari (jyrki.oraskari@aalto.fi) and Davy Van Deursen (davy.vandeursen@ugent.be)" ;
         cc:license                     <http://creativecommons.org/licenses/by/3.0/> ;
@@ -11181,8 +11181,8 @@ ifc:RELIEFDAMPER  a  ifc:IfcDamperTypeEnum , owl:NamedIndividual ;
         dce:language                   "en" ;
         dce:title                      "IFC2X3_Final" ;
         vann:preferredNamespacePrefix  "ifc" ;
-        vann:preferredNamespaceUri     "http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final" ;
-        owl:imports                    <http://purl.org/voc/express> .
+        vann:preferredNamespaceUri     "https://w3id.org/ifc/IFC2X3_Final" ;
+        owl:imports                    <https://w3id.org/express> .
 
 ifc:partOfComplex_IfcPhysicalQuantity
         a              owl:ObjectProperty , owl:FunctionalProperty ;
