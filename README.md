@@ -10,9 +10,9 @@ The above URI's (e.g. http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final#) do
 
 The same ontologies are also published under permanent and dereferenceable URIs (at http://w3id.org and at http://openbimstandards.org), so that they are appropriately accessible. These ontologies can be accessed online via a browser and via RDF editors (e.g. Protégé, JENA, Topbraid Composer).
 
-- [http://w3id.org/ifc/IFC2X3_Final](http://w3id.org/ifc/IFC2X3_Final) - [http://openbimstandards.org/ifc/IFC2X3_Final](http://openbimstandards.org/ifc/IFC2X3_Final)
-- [http://w3id.org/ifc/IFC2X3_TC1](http://w3id.org/ifc/IFC2X3_TC1) - [http://openbimstandards.org/ifc/IFC2X3_TC1](http://openbimstandards.org/ifc/IFC2X3_TC1)
-- [http://w3id.org/ifc/IFC4](http://w3id.org/ifc/IFC4) - [http://openbimstandards.org/ifc/IFC4](http://openbimstandards.org/ifc/IFC4)
-- [http://w3id.org/ifc/IFC4_ADD1](http://w3id.org/ifc/IFC4_ADD1) - [http://openbimstandards.org/ifc/IFC4_ADD1](http://openbimstandards.org/ifc/IFC4_ADD1)
+- [http://w3id.org/ifc/IFC2X3_Final](http://w3id.org/ifc/IFC2X3_Final) - [http://openbimstandards.org/ifcowl/IFC2X3_Final](http://openbimstandards.org/ifcowl/IFC2X3_Final)
+- [http://w3id.org/ifc/IFC2X3_TC1](http://w3id.org/ifc/IFC2X3_TC1) - [http://openbimstandards.org/ifcowl/IFC2X3_TC1](http://openbimstandards.org/ifcowl/IFC2X3_TC1)
+- [http://w3id.org/ifc/IFC4](http://w3id.org/ifc/IFC4) - [http://openbimstandards.org/ifcowl/IFC4](http://openbimstandards.org/ifcowl/IFC4)
+- [http://w3id.org/ifc/IFC4_ADD1](http://w3id.org/ifc/IFC4_ADD1) - [http://openbimstandards.org/ifcowl/IFC4_ADD1](http://openbimstandards.org/ifcowl/IFC4_ADD1)
 
 More information is available in [http://www.buildingsmart-tech.org/future/linked-data/](http://www.buildingsmart-tech.org/future/linked-data/).
