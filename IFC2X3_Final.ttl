@@ -5,8 +5,8 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix vann:  <http://purl.org/vocab/vann/> .
-@prefix list:  <http://www.co-ode.org/ontologies/list.owl#> .
-@prefix expr:  <http://purl.org/voc/express#> .
+@prefix list:  <https://w3id.org/list#> .
+@prefix expr:  <https://w3id.org/express#> .
 @prefix ifc:   <http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final#> .
 @prefix cc:    <http://creativecommons.org/ns#> .
 
@@ -11182,7 +11182,7 @@ ifc:RELIEFDAMPER  a  ifc:IfcDamperTypeEnum , owl:NamedIndividual ;
         dce:title                      "IFC2X3_Final" ;
         vann:preferredNamespacePrefix  "ifc" ;
         vann:preferredNamespaceUri     "http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final" ;
-        owl:imports                    <http://purl.org/voc/express> .
+        owl:imports                    <https://w3id.org/express> .
 
 ifc:partOfComplex_IfcPhysicalQuantity
         a              owl:ObjectProperty , owl:FunctionalProperty ;
