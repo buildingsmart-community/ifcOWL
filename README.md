@@ -13,6 +13,6 @@ This is the repository for managing the buildingSMART ifcOWL ontology. Ontology 
 These ontologies were generated using the software available at [https://github.com/pipauwel/EXPRESStoOWL](https://github.com/pipauwel/EXPRESStoOWL). 
 
 More information is available:
-- Pieter Pauwels, Ghent University ([mailto:pipauwel.pauwels@ugent.be](pipauwel.pauwels@ugent.be))
+- Pieter Pauwels, Ghent University ([https://github.com/pipauwel](https://github.com/pipauwel))
 - [http://www.buildingsmart-tech.org/future/linked-data/](http://www.buildingsmart-tech.org/future/linked-data/)
 - [http://ifcowl.openbimstandards.org/](http://ifcowl.openbimstandards.org/)
