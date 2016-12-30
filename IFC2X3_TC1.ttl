@@ -1,4 +1,4 @@
-@prefix :      <https://w3id.org/ifc/IFC2X3_TC1#> .
+@prefix :      <http://ifcowl.openbimstandards.org/IFC2X3_TC1#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dce:   <http://purl.org/dc/elements/1.1/> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
@@ -7,7 +7,7 @@
 @prefix vann:  <http://purl.org/vocab/vann/> .
 @prefix list:  <https://w3id.org/list#> .
 @prefix expr:  <https://w3id.org/express#> .
-@prefix ifc:   <https://w3id.org/ifc/IFC2X3_TC1#> .
+@prefix ifc:   <http://ifcowl.openbimstandards.org/IFC2X3_TC1#> .
 @prefix cc:    <http://creativecommons.org/ns#> .
 
 ifc:MODIFIED  a     ifc:IfcChangeActionEnum , owl:NamedIndividual ;
@@ -28472,7 +28472,7 @@ ifc:IfcPointOnCurve  a    owl:Class ;
                           ] ;
         owl:disjointWith  ifc:IfcPointOnSurface , ifc:IfcCartesianPoint .
 
-<https://w3id.org/ifc/IFC2X3_TC1>
+<http://ifcowl.openbimstandards.org/IFC2X3_TC1>
         a                              owl:Ontology ;
         rdfs:comment                   "Ontology automatically generated from the EXPRESS schema 'IFC2X3_TC1' using the 'IFC-to-RDF' converter developed by Pieter Pauwels (pipauwel.pauwels@ugent.be), based on the earlier versions from Jyrki Oraskari (jyrki.oraskari@aalto.fi) and Davy Van Deursen (davy.vandeursen@ugent.be)" ;
         cc:license                     <http://creativecommons.org/licenses/by/3.0/> ;
@@ -28484,7 +28484,7 @@ ifc:IfcPointOnCurve  a    owl:Class ;
         dce:language                   "en" ;
         dce:title                      "IFC2X3_TC1" ;
         vann:preferredNamespacePrefix  "ifc" ;
-        vann:preferredNamespaceUri     "https://w3id.org/ifc/IFC2X3_TC1" ;
+        vann:preferredNamespaceUri     "http://ifcowl.openbimstandards.org/IFC2X3_TC1" ;
         owl:imports                    <https://w3id.org/express> .
 
 ifc:WATERFILTER  a  ifc:IfcFilterTypeEnum , owl:NamedIndividual ;

@@ -1,4 +1,4 @@
-@prefix :      <https://w3id.org/ifc/IFC4_ADD1#> .
+@prefix :      <http://ifcowl.openbimstandards.org/IFC4_ADD1#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dce:   <http://purl.org/dc/elements/1.1/> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
@@ -7,7 +7,7 @@
 @prefix vann:  <http://purl.org/vocab/vann/> .
 @prefix list:  <https://w3id.org/list#> .
 @prefix expr:  <https://w3id.org/express#> .
-@prefix ifc:   <https://w3id.org/ifc/IFC4_ADD1#> .
+@prefix ifc:   <http://ifcowl.openbimstandards.org/IFC4_ADD1#> .
 @prefix cc:    <http://creativecommons.org/ns#> .
 
 ifc:longDescription_IfcProjectOrder
@@ -17381,7 +17381,7 @@ ifc:IfcLuminousIntensityDistributionMeasure_List
                            owl:onProperty     list:hasContents
                          ] .
 
-<https://w3id.org/ifc/IFC4_ADD1>
+<http://ifcowl.openbimstandards.org/IFC4_ADD1>
         a                              owl:Ontology ;
         rdfs:comment                   "Ontology automatically generated from the EXPRESS schema 'IFC4_ADD1' using the 'IFC-to-RDF' converter developed by Pieter Pauwels (pipauwel.pauwels@ugent.be), based on the earlier versions from Jyrki Oraskari (jyrki.oraskari@aalto.fi) and Davy Van Deursen (davy.vandeursen@ugent.be)" ;
         cc:license                     <http://creativecommons.org/licenses/by/3.0/> ;
@@ -17393,7 +17393,7 @@ ifc:IfcLuminousIntensityDistributionMeasure_List
         dce:language                   "en" ;
         dce:title                      "IFC4_ADD1" ;
         vann:preferredNamespacePrefix  "ifc" ;
-        vann:preferredNamespaceUri     "https://w3id.org/ifc/IFC4_ADD1" ;
+        vann:preferredNamespaceUri     "http://ifcowl.openbimstandards.org/IFC4_ADD1" ;
         owl:imports                    <https://w3id.org/express> .
 
 ifc:creators_IfcWorkControl
